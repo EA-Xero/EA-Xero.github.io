@@ -1,0 +1,32 @@
+.logo{
+    background-size: contain;
+
+}
+
+@font-face {
+    font-family:roboto-li;
+    src: url(../fonts/Roboto-Light.ttf);
+
+    font-family: roboto-me;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+.tx1{
+    font-family: roboto-me;
+}
+
+.tx2{
+    font-family: roboto-li;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+footer{
+    background-color:green;
+}
+
+.cbody{
+    background-color: antiquewhite;
+}
+
+

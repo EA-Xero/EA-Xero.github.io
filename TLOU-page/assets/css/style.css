@@ -1,0 +1,81 @@
+@font-face {
+    font-family: mifuente2;
+    src: url(../Fuentes/main-historia/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: mifuente;
+    src: url(../Fuentes/header-titulo/BebasNeue-Regular.ttf);
+}
+
+body{
+    background-image: url(../img/TLOU-2.webp);
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.theader{
+    text-align:center;
+    font-family: mifuente;
+    font-size: 3em;
+    margin: 0%;
+    color:blanchedalmond;
+    background-color: black;
+}
+
+#historia{
+    color: azure;
+    text-align: left;
+    width: 26%;
+    margin: 1.5rem;
+    font-family: mifuente2;
+}
+
+leg{
+    background-color: black;
+    width: 100%;
+    display: inline-block;
+}
+
+.tx{
+    color:azure;
+    text-align: center;
+
+}
+
+.img{
+    width: 30%;
+    margin: 1em;
+}
+
+.box{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    width: 100%;
+}
+
+section{
+
+   
+    display: flex;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    justify-content:space-evenly;
+    color: azure;
+
+}
+
+footer{
+    background-color:black;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: yellow;
+    margin: 0%;
+}
+
+.footer{
+    margin: 0%;
+}
