@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+
+header{
+    background-color: antiquewhite;
+    padding: 1em;
+    border-bottom: 1px solid black;
+}
+main{
+    padding: 1em;
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-size: large;
+}
+
+body{
+    background-color: black;
+}
+
+#task{
+    width: 50%;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid black;
+}
+
+#add{
+    background-color: green;
+    opacity: 0.6;
+    color: white;
+    border-radius: 20%;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+.contar{
+    text-align: center;
+}
+
+.list-i{
+    margin: 1em;
+    padding: 1em;
+    background-color: darkblue;
+}
+
+.delete-btn{
+    background-color: red;
+    color: white;
+    font-size: medium;
+}
+
+#Complet{
+    background-color: green;
+    color: white;
+    font-size: medium;
+}
+
+section{
+    padding: 10em;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed{
+    background-color: green;
+}

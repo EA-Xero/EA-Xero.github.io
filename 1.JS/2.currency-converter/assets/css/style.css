@@ -1,0 +1,72 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  text-align: center;
+  color: yellow;
+  background-color: black;
+  height: 3em;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: crimson;
+  color: chartreuse;
+  height: auto;
+  padding: 2em;
+}
+
+h1 {
+  color: aqua;
+  font-size: 2em;
+}
+
+div h3,
+h4,
+input,
+select,
+button,
+p {
+  font-size: 1em;
+  padding: 1em;
+}
+
+div h3 {
+  font-size: xx-large;
+  text-decoration: underline;
+}
+
+div h4 {
+  font-size: large;
+  color: aqua;
+}
+
+#aviso {
+  padding: 1em;
+  height: 3px;
+}
+
+button {
+  margin: 1em;
+  border-radius: 30%;
+  color: aqua;
+  background-image: linear-gradient(to bottom, black, blue);
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+button:hover {
+    animation: scale 2s ease-in-out alternate both;
+}

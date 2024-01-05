@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Conversor de Monedas Nacional</h1>
+
+    </header>
+    <section>
+        <div id="aviso"></div>
+        <div>
+            <h3>Conversor</h3>
+            <h4>Pesos Chilenos</h4>
+            <input type="number" id="pesos" min="0" placeholder="Ingrese Monto CLP">
+            <h4>Moneda a cambiar</h4>
+            <select name="Monedas" id="select">
+                <option disabled selected>Elige una Moneda</option>
+                <option value="utm">Unidad Tributaria Mensual (UTM)</option>
+                <option value="euro">Euro</option>
+                <option value="bitcoin">Bitcoin</option>
+                <option value="dolar_intercambio">Dolar-intercambio</option>
+                <option value="dolar">Dolar</option>
+                <option value="uf">Unidad de fomento (UF)</option>
+            </select>
+            <button id="btn">Convertir</button>
+            <p><span id="total"></span></p>
+        </div>
+        <canvas id="myChart"></canvas>
+    </section>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+
+</html>
