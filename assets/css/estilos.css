@@ -42,3 +42,13 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.card:hover{
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+
+.bgcustom{
+  background: rgb(0,162,247);
+background: linear-gradient(0deg, rgba(0,162,247,1) 0%, rgba(33,0,75,0.958420868347339) 78%);
+}
