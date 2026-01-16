@@ -7,11 +7,19 @@
     font-family: mifuente;
     src: url(../Fuentes/header-titulo/BebasNeue-Regular.ttf);
 }
+@media (min-width: 300px) and (max-width: 900px){
+    #historia{
+        width: 55% !important; 
+        margin-left: 3rem; 
+        padding-left: 4em;
+    }
+}
 
 body{
     background-image: url(../img/TLOU-2.webp);
     background-repeat: no-repeat;
     background-position:top;
+    background-size: cover;
 }
 
 .theader{
@@ -25,10 +33,16 @@ body{
 
 #historia{
     color: azure;
-    text-align: left;
-    width: 26%;
-    margin: 1.5rem;
+    text-align: justify;
+    width: 25%;
+    margin-left: 1.5rem;
+    padding-left: 2em;
     font-family: mifuente2;
+}
+
+.parrafo{
+    margin-left: 2em;
+    padding-left: 2em;
 }
 
 leg{

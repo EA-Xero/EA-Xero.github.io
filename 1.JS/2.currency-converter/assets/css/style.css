@@ -3,6 +3,12 @@
   margin: 0%;
 }
 
+#myChart{
+  align-items:  center;
+  width: 100%;
+  height:50px;
+}
+
 header {
   text-align: center;
   color: yellow;

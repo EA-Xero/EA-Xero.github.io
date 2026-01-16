@@ -39,6 +39,12 @@ btn.addEventListener("click", async () => {
                 }]
             }
         }
+        if(document.getElementById("myChart")){document.getElementById("myChart").remove()}
+        const seccion = document.getElementById("padre")
+        const canvas = document.createElement("canvas")
+        canvas.setAttribute("id","myChart")
+        canvas.style
+        seccion.appendChild(canvas)
         new Chart (document.getElementById("myChart"), grafica)
     }
 })

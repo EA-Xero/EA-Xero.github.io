@@ -4,11 +4,33 @@ body {
 
 /* Hero Section */
 
+
 #Hero-Section {
   background-image: url("../img/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+}
+
+/* Rutas Ocultas */
+.ruta{
+  display: none;
+}
+
+/* Visual de archivos */
+.visual {
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  margin-top: 40px;
+  background: radial-gradient(circle at top, #222, #000);
+}
+
+.visual #visualizador {
+  width: min(100%, 1100px);
+  height: 80vh;
+  box-shadow: 0 20px 60px rgba(0,0,0,.6);
+  border-radius: 8px;
 }
 
 /* Mis trabajos */
