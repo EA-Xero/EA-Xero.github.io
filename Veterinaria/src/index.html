@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../assets/img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar mb-0">
+        <div class="container-fluid w-100">
+            <div class="m-0 p-0 position-relative top-50 ">
+                <img id="logo" src="../assets/img/logo.jpg" alt="Veterinaria Logo" height="100" class="d-inline-block align-text-top rounded-circle">
+            </div>
+            <div class="position-absolute top-50 start-50 translate-middle">
+                <h1 id="brand_name" class="text-white fw-bold fst-italic text-center">Veterinaria .spa</h1>
+            </div>
+        </div>
+    </nav>
+    <section id="recomendaciones" class="bg-danger text-center fw-bold h6 text-white bg-gradient m-0 p-2 d-flex  text-decoration-underline justify-content-around align-items-center">
+        <a class="icon-link icon-link-hover text-white" href="#QuienesSomos">Quienes somos</a>
+        <a class="icon-link icon-link-hover text-white" href="#Recomendaciones" data-bs-toggle="modal" data-bs-target="#exampleModal">Recomendaciones</a>
+        <a class="icon-link icon-link-hover text-white" href="#Contactanos">Contacto</a>
+    </section>
+    <main class="container-fluid w-100">
+        <section id="hero_header" class="w-100 d-flex flex-md-row flex-sm-column justify-content-around bg-white rounded-3 p-5 mt-5">
+            <div id="primary_info" class="d-flex flex-column justify-content-center align-items-center">
+                <h1 id="main_title" class="text-center text-decoration-underline">Veterinaria Chile
+                    <h2 id="second_title" class="text-center">La mejor de la ciudad!</h2>
+                </h1>
+                    <div id="info" class="p-2 fw-bold text-center">
+                        <p>
+                            En Veterinaria Chile, nos dedicamos a cuidar de tus mascotas con amor y profesionalismo. 
+                            Nuestro equipo de veterinarios altamente capacitados está comprometido a brindar atención de calidad para garantizar la salud y el bienestar de tus 
+                            animales.
+                        </p>
+                        <p>Nos especializamos en atención veterinaria integral, incluyendo cirugía, diagnóstico por imágenes, terapia física y rehabilitación.</p>
+                    </div>
+                </div>
+            <div>
+                <img id="primary_img" src="../assets/img/ejemplo3.jpg" alt="Atencion Profesional!" class="rounded-3 w-100 border border-3 border-primary shadow-lg">
+            </div>
+        </section>
+
+        <section id="hero_header" class="w-100 d-flex flex-md-row flex-sm-column justify-content-around bg-white rounded-3 p-5 mt-5">
+            <div id="primary_info" class="d-flex flex-column justify-content-center align-items-center">
+                <h1 id="QuienesSomos" class="text-center fw-bold bg-dark bg-gradient text-white p-3  rounded-5">¿Quienes somos?</h1>
+                    <div id="info" class="p-2 fw-bold text-center">
+                        <p>Somos una clinica veterinaria emergente pero reconocida, nos especializamos en atención veterinaria integral, incluyendo cirugía, diagnóstico por imágenes, terapia física y rehabilitación.
+                            Nuestro equipo esta principalmente compuesto por profesionales reconocidos en el area, con años de experiencia y una gran vocacion por el cuidado de los animales, lo que nos ha permitido brindar un servicio de calidad y confianza a nuestros clientes.
+                        </p>
+                    </div>
+                </div>
+            <div>
+                <img id="primary_img" src="../assets/img/doctora.jpg" height="500" alt="Atencion Profesional!" class="rounded-3 w-100 border border-3 border-primary shadow-lg">
+            </div>
+        </section>
+
+        <section id="hero_header" class="w-100 bg-white rounded-3 p-5 mt-5">
+            <h1 id="Contactanos" class="text-center fw-bold bg-dark bg-gradient text-white p-2 rounded-5">¡Contactanos!</h1>
+            <h2 class="text-center mt-2 p-2">¿Tu mascota necesita atencion medica?</h2>
+            <div id="opciones" class="bg-secondary-subtle rounded-5 mx-3 py-4 d-flex flex-md-row flex-sm-column justify-content-around align-items-center">
+                <div class="text-white text-center gap-1 d-flex flex-column justify-content-center align-items-center mb-3">
+                    <h2 class="text-warning fw-bold">Agendar atencion presencial</h2>
+                        <a href="https://calendar.app.google/vdhhw8LmBW7QJjpe8" target="_blank" class="btn btn-primary btn-lg text-center text-dark fw-bold">Agendar ahora</a>
+                </div>
+                <div class="text-center text-dark gap-1 d-flex flex-column justify-content-center align-items-center">
+                    <h2 class="text-warning fw-bold">Agendar atencion a domicilio</h2>
+                        <ul class="list-unstyled h5 d-flex flex-column justify-content-center align-items-center">
+                            <li><img src="../assets/img/Telefono Icon.png" alt="Telefono" height="20px" class="m-2"><strong>Telefono:</strong> +56 9 1234 5678</li>
+                            <li><img src="../assets/img/WhatsApp Icon.png" alt="WhatsApp" height="20px" class="m-2"><strong>Whatsapp:</strong> +56 9 4321 8765</li>
+                            <li><img src="../assets/img/Correo Icon.png" alt="Correo" height="20px" class="m-2"><strong>Correo:</strong> veterinaria@chile.cl</li>
+                        </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">🐾 Recomendaciones!</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h2>🗓️ Antes de la Cita</h2>
+                <ul>
+                    <li>
+                        <strong>Ayuno Preventivo:</strong> 
+                        <p>
+                            Si la consulta es por exámenes de sangre o cirugía, asegúrate de que no haya ingerido comida al menos 8 horas antes. 
+                            (Si es consulta general, puede comer normal).
+                        </p>
+                    </li>
+                    <li>
+                        <strong>Prepara su historial:</strong>
+                        <p>
+                            Ten a mano el carnet de vacunación o anota cualquier síntoma, cambio de conducta o marca de alimento que esté consumiendo.
+                        </p>
+                    </li>
+                    <li>
+                        <strong>Seguridad primero:</strong>
+                        <p>
+                            Trae a tu perro con correa y collar/arnés resistente. En el caso de gatos, siempre en su transportadora.
+                        </p>
+                    </li>
+                </ul>
+                <h2>📋 Durante la Estancia</h2>
+                <ul>
+                    <li>
+                        <strong>Mantén la calma:</strong>
+                        <p>Tu mascota detecta tu ansiedad. Háblale con suavidad para que se sienta en un entorno seguro.</p>
+                    </li>
+                    <li>
+                        <strong>Información honesta:</strong>
+                        <p>Cuéntanos todo, incluso si crees que es un detalle pequeño. ¡Toda pista ayuda al diagnóstico!</p>
+                    </li>
+                    <li>
+                        <strong>Espacio vital:</strong>
+                        <p>
+                            Respeta la distancia entre otros pacientes en la sala de espera para evitar situaciones de estrés o posibles contagios.
+                        </p>
+                    </li>
+                </ul>
+                <h2>✅ Después de la Consulta</h2>
+                <ul>
+                    <li>
+                        <strong>Sigue las pautas:</strong>
+                        <p>Lee bien la receta y respeta los horarios de los medicamentos. ¡La constancia es la clave de la recuperación!</p>
+                    </li>
+                    <li>
+                        <strong>Observación:</strong>
+                        <p>Vigila si hay cambios tras la medicación o vacuna (decaimiento excesivo o reacciones alérgicas) y contáctanos si tienes dudas.</p>
+                    </li>
+                    <li>
+                        <strong>Próximo control:</strong>
+                        <p>No esperes a que se sienta mal de nuevo; agenda su revisión de seguimiento antes de salir de la clínica.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer d-flex justify-content-around align-items-center">
+                    <button type="button" class="btn btn-success btn-lg px-5 ms-5" data-bs-dismiss="modal">Entendido!</button>
+                    <button type="button" class="btn btn-secondary btn-lg px-5 me-5" data-bs-dismiss="modal">Cerrar...</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+    <footer class="bg-dark text-white text-center p-3 position-relative mt-5 bottom-0 w-100">
+        <p class="h3 m-2 p-1">Visitanos en: Av. Siempre Viva 123, Santiago, Chile</p>
+        <p class="mb-0">© 2026 Veterinaria Chile. Todos los derechos reservados.</p>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>

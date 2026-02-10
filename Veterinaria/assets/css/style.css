@@ -1,0 +1,73 @@
+nav{
+    background-color: #00ABBD;
+}
+
+body{
+    background-color: #026E81;
+}
+
+#primary_info{
+    width: 100%;
+}
+
+#main_title{
+    font-size: 3rem;
+    margin-bottom: 12px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 760px) {
+    #primary_info{
+        width: 50%;
+    }
+    #primary_img {
+    animation-duration: 1s;
+    animation-name: slidein;
+    }
+    #main_title, #second_title{
+        animation-duration: 1s;
+        animation-name: slideout;
+    }
+}
+
+@media (max-width: 760px) {
+    #brand_name{
+        font-size: 2rem;
+        margin-left: 1em;
+    }
+    #primary_img {
+    animation-duration: 1s;
+    animation-name: slideup;
+    }
+    #main_title, #second_title{
+        animation-duration: 1s;
+        animation-name: slideout;
+    }
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 15%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+@keyframes slideout {
+    from {
+        margin-right: 15%;
+    }
+    to {
+        margin-right: 0%;
+    }
+}
+
+@keyframes slideup {
+    from {
+        margin-top: 15%;
+    }
+    to {
+        margin-top: 0%;
+    }
+}

@@ -2,349 +2,247 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-  <title>Mi historia</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-    integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="assets/css/estilos.css" />
-
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="assets/favicon/site.webmanifest" />
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/009708912d.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Alarcon | Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 </head>
 
-<body>
-  <!--navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <div>
-        <h1 class="navbar-brand text-warning">
-          <p class="h1">Eduardo Alarcón</p>
-        </h1>
-      </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 g-5">
-          <li class="nav-item">
-            <a class="nav-link text-primary" href="#Acerca-de-mi"><i class="fa fa-solid fa-user"></i> Acerca de mi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-primary" href="#Mis-trabajos"><i class="fa a-solid fa-briefcase"></i> Trabajos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-primary" href="#Contacto"><i class="fa fa-solid fa-address-card"></i> Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!--header-->
-  <header id="Hero-Section" class="text-light text-start py-5 mt-5">
-    <div class="container text-start">
-      <div class="col-12 col-md-7">
-        <h1 class="display-4 fw-bold my-5">
-          "TechTales: La vida de un aficionado a la tecnología"
-        </h1>
-        <p class="my-5">
-          Bienvenido a mi página web profesional. En este espacio, te invito a
-          conocerme más a fondo, así como a explorar mis intereses,
-          habilidades y aptitudes, las cuales desarrollo con dedicación y
-          pasión en cada oportunidad que se presenta.
-        </p>
-        <div class="mb-5 pb-5">
-          <button class="btn btn-lg btn-outline-primary bg-gradient me-4">
-            <a class="text-decoration-none text-light h4 fw-bold" href="https://linktr.ee/iiixeroiii"
-              target="_blank">Redes sociales</a>
-          </button>
-          <button class="btn btn-lg btn-outline-primary bg-gradient me-4">
-            <a class="text-decoration-none text-light h4 fw-bold" href="./certificaciones.html"
-              target="_blank">Certificaciones</a>
-          </button>
+<body class="bg-black">
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="fw-bold text-warning text-decoration-none h3 px-2 mx-5" href="#">Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav column-gap-5">
+                    <a href="#Quien_soy" class="nav-link">Sobre Mi</a>
+                    <a href="#trabajos" class="nav-link">Mis Trabajos</a>
+                    <a href="#tecnologias" class="nav-link">Tecnologias</a>
+                    <a href="certificaciones.html" class="nav-link active" target="_blank">Mis Certificados</a>
+                    <a class="nav-link active" href="https://linktr.ee/iiixeroiii" target="_blank">Contacto</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </header>
+    </nav>
 
-  <!--Acerca de mi-->
-  <section id="Acerca-de-mi" class="container text-center my-5">
-    <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
+    <main class="my-5">
+        <section id="Quien_soy"
+            class="bg-white container-fluid p-4 rounded my-5 d-flex justify-content-around align-items-center w-75">
+            <div id="imagen" class="d-flex flex-column justify-content-center align-items-center m-2 p-3 text-center">
+                <img src="assets/img/yo.png" height="100" alt="Eduardo Alarcon" class="rounded-circle">
+                <h3>Eduardo Alarcon</h3>
+            </div>
+            <div id="presentacion"
+                class="d-flex flex-column flex-wrap text-center text-white bg-secondary rounded-5 p-3 gap-2">
+                <h4 class="bg-black text-warning rounded-5 bg-gradient p-2">Desarrollador FullStack Web | Software</h4>
+                <h5>Estudiante de Ingenieria Civil Informatica y Telecomunicaciones <a
+                        href="https://www.udp.cl/">(UDP)</a></h5>
+                <h6 class="">Hola! bienvenido a mi pequeña presentacion para clientes, donde podas encontrar diferentes
+                    tipos de trabajos y diseños para
+                    tu negocio, si estas interesado y quieres establecer contacto por favor no dudes en contactame:
+                </h6>
+                <a class="btn btn-success h3 rounded-5 fw-bold" href="https://linktr.ee/iiixeroiii" target="_blank">Contacto</a>
+                <a class="btn btn-primary h3 rounded-5 fw-bold" href="certificaciones.html" target="_blank">Certificaciones</a>
+            </div>
+        </section>
 
-    <p class="my-4">
-      ¡Saludos! Soy una persona apasionada por el conocimiento y la curiosidad intelectual,
-      Actualmente encontrandome en una encruzijada entre el desarrollo Web y el desarrollo de Software,
-      ¿Por que no hacer ambos cierto?.
-      Mi interés se extiende a una amplia gama de temas, aunque
-      algunas de estas áreas no las aplique directamente en mi vida cotidiana.
-      Mi enfoque en el autoaprendizaje refleja mi deseo constante de
-      crecimiento personal y desarrollo intelectual. Aunque a veces me resulta
-      desafiante comprometerme con el estudio formal, siempre busco
-      oportunidades para expandir mis conocimientos de manera autodidacta.
-    </p>
-
-    <div class="row">
-      <div class="col-12 col-md-4">
-        <i class="fas fa-solid fa-code fa-3x my-3"></i>
-        <h3 class="my-3 fw-bold">Desarrollador Web</h3>
-        <p class="my-3">
-          Actualmente desarrollador Web. Mi pasión por la programación ha sido
-          una constante en mi vida, y ahora estoy dedicando tiempo y esfuerzo
-          para estudiarla de manera estructurada y comprometida. Este curso de
-          eventos representa una emocionante etapa en mi trayectoria
-          educativa, y estoy ansioso por aplicar y expandir mis conocimientos
-          en el fascinante mundo del desarrollo web FullStack.​
-        </p>
-      </div>
-      <div class="col-12 col-md-4">
-        <i class="fas fa-solid fa-bolt fa-3x my-3"></i>
-        <h3 class="my-3 fw-bold">Electrónico</h3>
-        <p class="my-3">
-          Además. Tanto en mi carrera actual como en mi educacion media estudie Electrónica.
-          Mi objetivo es fusionar estos conocimientos en proyectos significativos en el
-          futuro. Estoy ansioso por aplicar la sinergia de mis habilidades en
-          un proyecto innovador. Quién no se entusiasmaría con la idea de
-          crear un robot alimentado por 100.000 voltios.
-        </p>
-      </div>
-      <div class="col-12 col-md-4">
-        <i class="fa fa-solid fa-headset fa-3x my-3"></i>
-        <h3 class="my-3 fw-bold">Gamer</h3>
-        <p class="my-3">
-          Uno de mis principales Hobbies son los videojuegos y la
-          tecnología. La combinación de mi pasión por la programación y mi
-          amor por los mundos abiertos en los videojuegos es la fuerza motriz
-          detrás de mi dedicación a crear experiencias digitales
-          significativas.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!--Zona de trabajos-->
-  <section id="Mis-trabajos" class="my-5 p-5 bg-info mb-0 pb-4">
-    <h2 class="display-4 fw-bold text-center text-dark mb-3">Mis trabajos</h2>
-
-    <div class="row">
-      <div class="col-12 col-sm-4 py-2">
-        <a class="card text-decoration-none" href="./Cuppon/index.html" target="_blank">
-          <div class="image-top" style="background-image: url(assets/img/card-1.png)"></div>
-          <div class="card-body">
-            <h5 class="card-title fw-bold text-dark">Pagina Cuppon</h5>
-            <p class="card-text text-dark">
-              Pagina la cual ofrece productos (en este caso
-              del hogar) pero a menor precio, debido a la afliciacion entre
-              estas.
+        <section id="trabajos" class="bg-white container-fluid p-4 rounded w-75">
+            <h2 class="text-white text-center fw-bold fst-italic bg-secondary rounded p-2">Mis Trabajos</h2>
+            <h6 class="text-center">Descubre los proyectos que he desarrollado como ejemplo de maquetación web.</h6>
+            <h5 class="text-center mb-2 fw-bold">Estos proyectos cuentan como ejemplos Front-End, especializados en diseño mas que en funcionalidad</h5>
+            <div class="row row-cols-1 row-cols-md-2 align-items-center m-2 p-5 rounded-5"
+                style="background-color: beige;">
+                <section id="Veterinaria" class="text-center col mt-3">
+                    <div class="card border border-1 border-black">
+                        <img src="assets/img/Veterinaria.png" class="card-img-top" alt="Veterinaria">
+                        <div class="card-body border-top border-3 border-primary ">
+                            <h4 class="card-tittle fw-bold">Veterinaria</h4>
+                            <p class="card-text">Un sitio web para una veterinaria local con servicios de atención
+                                veterinaria.</p>
+                            <a href="assets/img/Veterinaria.png" target="_blank"
+                                class="btn btn-primary btn-lg py-1 px-5">Ver Detalles</a>
+                        </div>
+                        <div class="card-footer d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="d-flex justify-content-around align-items-center flex-wrap gap-3">
+                                <h6><span class="badge rounded-pill text-bg-success">Front End</span></h6>
+                                <h6><span class="badge rounded-pill text-bg-warning">Bootstrap</span></h6>
+                            </div>
+                            <div class="d-flex justify-content-around align-items-center flex-wrap gap-3">
+                                <h6><span class="badge rounded-pill text-bg-secondary">CSS</span></h6>
+                                <h6><span class="badge rounded-pill text-bg-secondary">JS</span></h6>
+                                <h6><span class="badge rounded-pill text-bg-secondary">HTML</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="Barberia" class="text-center col mt-3">
+                    <div class="card border border-1 border-black">
+                        <img src="assets/img/Barberia.png" class="card-img-top" alt="Barberia">
+                        <div class="card-body border-top border-3 border-primary ">
+                            <h4 class="card-tittle fw-bold">Barbería</h4>
+                            <p class="card-text">Un sitio web para una barbería local con servicios de peluquería y
+                                estética.</p>
+                            <a href="assets/Barberia/src/index.html" target="_blank"
+                                class="btn btn-primary btn-lg py-1 px-5">Ver Detalles</a>
+                        </div>
+                        <div class="card-footer d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="d-flex justify-content-around align-items-center flex-wrap gap-3">
+                                <h6><span class="badge rounded-pill text-bg-success">Front End</span></h6>
+                                <h6><span class="badge rounded-pill text-bg-warning">Bootstrap</span></h6>
+                            </div>
+                            <div class="d-flex justify-content-around align-items-center flex-wrap gap-3">
+                                <h6><span class="badge rounded-pill text-bg-secondary">CSS</span></h6>
+                                <h6><span class="badge rounded-pill text-bg-secondary">JS</span></h6>
+                                <h6><span class="badge rounded-pill text-bg-secondary">HTML</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="Farmacia" class="text-center col mt-3">
+                    <div class="card border border-1 border-black">
+                        <img src="assets/img/Farmacia.png" class="card-img-top" alt="Farmacia">
+                        <div class="card-body border-top border-3 border-primary ">
+                            <h4 class="card-tittle fw-bold">Farmacia</h4>
+                            <p class="card-text">Un sitio web para una farmacia local con servicios de atención médica.
+                            </p>
+                            <a href="assets/Farmacia/src/index.html" target="_blank"
+                                class="btn btn-primary btn-lg py-1 px-5">Ver Detalles</a>
+                        </div>
+                        <div class="card-footer d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="d-flex justify-content-around align-items-center flex-wrap gap-3">
+                                <h6><span class="badge rounded-pill text-bg-success">Front End</span></h6>
+                                <h6><span class="badge rounded-pill text-bg-warning">Bootstrap</span></h6>
+                            </div>
+                            <div class="d-flex justify-content-around align-items-center flex-wrap gap-3">
+                                <h6><span class="badge rounded-pill text-bg-secondary">CSS</span></h6>
+                                <h6><span class="badge rounded-pill text-bg-secondary">JS</span></h6>
+                                <h6><span class="badge rounded-pill text-bg-secondary">HTML</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="TLOU" class="text-center col mt-3">
+                    <div class="card border border-1 border-black">
+                        <img src="assets/img/TLOU.png" height="290" class="card-img-top" alt="The last of us">
+                        <div class="card-body border-top border-3 border-primary ">
+                            <h4 class="card-tittle fw-bold">The last of Us Page</h4>
+                            <p class="card-text">Sitio Web conmemorativo a una de las historias que mas me han afectado
+                                personalmente
+                            </p>
+                            <a href="assets/TLOU-page/index.html" target="_blank"
+                                class="btn btn-primary btn-lg py-1 px-5">Ver Detalles</a>
+                        </div>
+                        <div class="card-footer d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="d-flex justify-content-around align-items-center flex-wrap gap-3">
+                                <h6><span class="badge rounded-pill text-bg-success">Front End</span></h6>
+                            </div>
+                            <div class="d-flex justify-content-around align-items-center flex-wrap gap-3">
+                                <h6><span class="badge rounded-pill text-bg-secondary">CSS</span></h6>
+                                <h6><span class="badge rounded-pill text-bg-secondary">JS</span></h6>
+                                <h6><span class="badge rounded-pill text-bg-secondary">HTML</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="Cuppon" class="text-center col mt-3">
+                    <div class="card border border-1 border-black">
+                        <img src="assets/img/Cuppon.png" height="290" class="card-img-top" alt="Cuppon">
+                        <div class="card-body border-top border-3 border-primary ">
+                            <h4 class="card-tittle fw-bold">Cuppon</h4>
+                            <p class="card-text">
+                                Sitio web que busca modelar una tienda de elementos decorativos para el hogar
+                            </p>
+                            <a href="assets/TLOU-page/index.html" target="_blank"
+                                class="btn btn-primary btn-lg py-1 px-5">Ver Detalles</a>
+                        </div>
+                        <div class="card-footer d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="d-flex justify-content-around align-items-center flex-wrap gap-3">
+                                <h6><span class="badge rounded-pill text-bg-success">Front End</span></h6>
+                                <h6><span class="badge rounded-pill text-bg-warning">Bootstrap</span></h6>
+                            </div>
+                            <div class="d-flex justify-content-around align-items-center flex-wrap gap-3">
+                                <h6><span class="badge rounded-pill text-bg-secondary">CSS</span></h6>
+                                <h6><span class="badge rounded-pill text-bg-secondary">JS</span></h6>
+                                <h6><span class="badge rounded-pill text-bg-secondary">HTML</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <p>
+                <strong>Importante:</strong> todas las imagenes dentro de mis paginas webs relacionadas con personas, medicamentos, productos y servicios. 
+                No son de mi pertenencia y son utilizadas unica y exclusivamente como ejemplo. Se prohibe su comercializacion
             </p>
-          </div>
-        </a>
-      </div>
-      <div class="col-12 col-sm-4 py-2">
-        <a class="card text-decoration-none" href="./TLOU-page/index.html" target="_blank">
-          <div class="image-top" style="background-image: url(assets/img/card-2.png)"></div>
-          <div class="card-body">
-            <h5 class="card-title fw-bold text-dark">The Last of Us Page</h5>
-            <p class="card-text text-dark">
-              Se trata de una pagina conmemorativa al famosisimo juego llamado
-              The last of us, y por supuesto a su serie la cual esta
-              disponible en HBO
-            </p>
-          </div>
-        </a>
-      </div>
-      <div class="col-12 col-sm-4 py-2">
-        <a class="card text-decoration-none" href="./1.JS/3.real-estate/index.html" target="_blank">
-          <div class="image-top" style="background-image: url(assets/img/Inmobiliaria.png)"></div>
-          <div class="card-body text-dark">
-            <h5 class="card-title fw-bold">Inmobiliaria</h5>
-            <p class="card-text">
-              Pagina dedicada a la logica de busqueda para inmobiliaras que cumplen ciertos requisitos.
-              ya sea habitaciones, metros cuadrados, etc...
-            </p>
-          </div>
-        </a>
-      </div>
-    </div>
+        </section>
 
-    <div class="bg-dark d-flex justify-content-center m-0 mt-3 p-3">
-      <p class="text-light m-0">Quieres saber mas sobre mis trabajos?</p>
-      <a class="d-inline m-0 px-2" href="Portafolio.html" target="_blank">
-        Acercate a mi portafolio</a>
-    </div>
-  </section>
-
-  <!--informacion de estudios-->
-  <section class="bg-gradient bg-dark text-light p-4">
-    <h2 class="text-center p-2 bg-dark text-warning">Mis estudios!</h2>
-    <ul>
-      <li id="E-media">
-        Liceo Politecnico Aleman Albert Einstein (Fundacion SEG)
-        <p class="m-0">2018-2022</p>
-        <pre class="m-0">  Educacion media orientada a la tecnologia!</pre>
-        <pre class="m-0">  Titulo Tecnico medio en electronica</pre>
-        <br />
-        <button class="btn btn-outline-primary mx-5">
-          <a class="text-decoration-none" href="https://www.colegiosseg.cl/paae" target="_blank">Ver mas</a>
-        </button>
-      </li>
-      <br />
-      <li id="E-Tec-Desafio">
-        Academia Desafio Latam
-        <p class="m-0">2023</p>
-        <p>Curso de Desarrollador Web Fullstack JavaScript</p>
-        <button class="btn btn-outline-primary mx-5">
-          <a class="text-decoration-none" href="https://desafiolatam.com/" target="_blank">Ver mas</a>
-        </button>
-      </li>
-      <br />
-      <li id="E-Profesional">
-        Universidad Diego Portales (UDP)
-        <p class="m-0">2024-20XX</p>
-        <pre class="m-0">  Educacion Profesional orientada a la información, tecnologia y telecomunicaciones</pre>
-        <pre class="m-0">  Ingenieria Civil en Informatica y Telecomunicaciones</pre>
-        <br />
-        <button class="btn btn-outline-primary mx-5">
-          <a class="text-decoration-none" href="https://www.colegiosseg.cl/paae" target="_blank">Ver mas</a>
-        </button>
-      </li>
-      <br />
-    </ul>
-  </section>
-  <section class="bgcustom text-light p-3">
-    <h2 class="text-center fw-bold bg-dark text-info p-2 rounded-2">Tecnologias Aprendidas</h2>
-    <div class="container bg-transparent bg-gradient">
-      <div
-        class="row text-center align-items-center justify-content-center my-5 bg-transparent bg-gradient rounded p-5">
-        <div class="col-md-6">
-          <div class="p-5">
-            <h1 class="text-warning bg-dark bg-gradient rounded-pill">HTML/CSS/JS</h1>
-            <div>
-              <img class="rounded-3" style="height: auto; width: 50%;"
-                src="https://blog.boot.dev/img/800/HTML-vs-CSS-vs-JavaScript-min.webp" alt="Lenguajes">
+        <section id="tecnologias" class="bg-white container-fluid p-4 rounded w-75 my-5">
+            <h2 class="text-center fst-italic border-bottom border-primary border-4 text-dark fw-bold rounded p-2">Tecnologias</h2>
+            <div class="container p-0">
+                <ul class="row row-cols-1 row-cols-md-2 text-center m-0 p-0 row-gap-3" style="list-style: none;">
+                    <li class="col">
+                        <div class="border border-black border-3 rounded">
+                            <h3 class="text-primary bg-secondary text-white fw-bold border-bottom border-warning p-2 border-2">PostgreSQL</h3>
+                            <p class="fst-italic p-1">Importante motor de bases de datos el cual utiliza como lenguaje el famoso SQL, permite realizar bases de datos relacionales
+                                y es mundialmente conocido y estandar en el mercado
+                            </p>
+                        </div>
+                    </li>
+                    <li class="col">
+                        <div class="border border-black border-3 rounded">
+                            <h3 class="text-primary bg-secondary text-white fw-bold border-bottom border-warning p-2 border-2">HTML , CSS , JS</h3>
+                            <p class="fst-italic p-1"> 
+                                Stack basico de desarrollo web completamente necesario para paginas basicas e intermedias. perfecto para maquetacion de paginas web,
+                                sobre todo landing pages y presentaciones
+                            </p>
+                        </div>
+                    </li>
+                    <li class="col">
+                        <div class="border border-black border-3 rounded">
+                            <h3 class="text-primary bg-secondary text-white fw-bold border-bottom border-warning p-2 border-2">React JS</h3>
+                            <p class="fst-italic p-1">
+                                Libreria que utiliza JavaScript y/o Typescript, ideal para paginas que ameritan mas trabajo como tiendas o proovedores de servicios
+                            </p>
+                        </div>
+                    </li>
+                    <li class="col">
+                        <div class="border border-black border-3 rounded">
+                            <h3 class="text-primary bg-secondary text-white fw-bold border-bottom border-warning p-2 border-2">Node JS</h3>
+                            <p class="fst-italic p-1">
+                                Es un motor nativo de JS el cual permite realizar trabajos mas complejos como operaciones CRUD y servidores sin cambiar
+                                de lenguaje como lo es JavaScript
+                            </p>
+                        </div>
+                    </li>
+                    <li class="col">
+                        <div class="border border-black border-3 rounded">
+                            <h3 class="text-primary bg-secondary text-white fw-bold border-bottom border-warning p-2 border-2">BootStrap \ TailWind </h3>
+                            <p class="fst-italic p-1">
+                                Son Herramientas que permiten facilitar el diseño de componentes y paginas web mediante decoracion y definicion de comportamientos mediante clases
+                            </p>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <p class="h4 py-3">Lenguajes base para la programación y diseño web.</p>
-          </div>
+        </section>
+    </main>
+    <footer class="bg-dark">
+        <div class="text-center text-white">
+            <div class="d-flex justify-content-center align-items-center text-center">
+                <h4 class="text-warning p-1">Ea-Xero : </h4>
+                <h4 class="text-white p-1">Eduardo Alarcon</h4>
+            </div>
+            <p>@Copyrigth 2026 Todos los derechos reservados</p>
         </div>
 
-        <div class="col-md-6">
-          <div class="p-5">
-            <h1 class="text-warning bg-dark bg-gradient rounded-pill">Bootstrap</h1>
-            <div>
-              <img style="width: 80%;" class="rounded-3"
-                src="https://images.opencollective.com/bootstrap/a892851/background.png" alt="Bootstrap">
-            </div>
-            <p class="h4 py-3">Framework de CSS para el diseño web, ideal para agilizar el desarrollo y mejorar la
-              consistencia visual en proyectos.</p>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="p-5">
-            <h1 class="text-warning bg-dark bg-gradient rounded-pill">React.js</h1>
-            <div>
-              <img style="width: 80%;" class="rounded-3"
-                src="https://blog.dyma.fr/content/images/size/w960/2022/11/react1200x628.png" alt="ReactJS">
-            </div>
-            <p class="h4 py-3">Librería de JavaScript para el desarrollo web, destacada por optimizar el tiempo de
-              desarrollo y facilitar la gestión eficiente de la información en aplicaciones interactivas y dinámicas.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="p-5">
-            <h1 class="text-warning bg-dark bg-gradient rounded-pill">Node.js y Express.js</h1>
-            <div>
-              <img style="width: 80%;" class="rounded-3"
-                src="https://cdn-images-1.medium.com/max/964/0*gQoWzGUxAa52XBKk." alt="Node y Express">
-            </div>
-            <p class="h4 py-3">Plataforma y framework de JavaScript respectivamente, utilizados para el desarrollo de
-              aplicaciones del lado del servidor. Node.js proporciona el entorno de ejecución, mientras que Express.js
-              simplifica la creación de aplicaciones web robustas.</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="p-5">
-            <h1 class="text-warning bg-dark bg-gradient rounded-pill">PostgreSQL</h1>
-            <div>
-              <img style="width: 80%;" class="rounded-3"
-                src="https://memgraph.com/images/blog/what-is-postgresql-database/cover.png" alt="PostgreSQL">
-            </div>
-            <p class="h4 py-3">Sistema de gestión de bases de datos relacional, conocido por su robustez y capacidades
-              avanzadas. PostgreSQL ofrece una sólida base para almacenar y gestionar datos, siendo una opción preferida
-              en aplicaciones que requieren integridad y rendimiento.</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="p-5">
-            <h1 class="text-warning bg-dark bg-gradient rounded-pill">Figma</h1>
-            <div>
-              <img style="width: 60%;" class="rounded-3"
-                src="https://spin.atomicobject.com/wp-content/uploads/Figma-Image.jpg" alt="Figma">
-            </div>
-            <p class="h4 py-3">Herramienta de diseño colaborativo basada en la nube. Figma es reconocida por su
-              capacidad para simplificar el proceso de diseño y prototipado, permitiendo a los equipos trabajar de
-              manera eficiente en proyectos creativos.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    </div>
-  </section>
-  <!--contacto-->
-  <section id="Contacto" class="container my-5">
-    <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
-
-    <p class="text-center my-4 d-none d-md-block">
-      Acá abajo te dejo un formulario para que puedas preguntarme lo que
-      quieras sobre mis experiencias como programador e incluso sugerir
-      cambios en paginas!
-    </p>
-
-    <form action="https://formspree.io/f/mbjnjqkn" method="post">
-      <div class="form-group mb-4">
-        <label for="nombre" class="mb-2">Nombre:</label>
-        <input type="text" name="nombre" required class="form-control" placeholder="Nombre" />
-      </div>
-
-      <div class="form-group mb-4">
-        <label for="Correo" class="mb-2">Correo electrónico:</label>
-        <input type="email" name="correo" required class="form-control" placeholder="Correo electrónico" />
-      </div>
-
-      <div class="form-group">
-        <label for="mensasje" class="mb-2">Mensaje:</label>
-        <textarea name="mensaje" required class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
-      </div>
-
-      <div class="my-3 text-end">
-        <button type="submit" value="Enviar" class="btn btn-info text-light">Enviar</button>
-      </div>
-    </form>
-  </section>
-
-  <!--footer-->
-  <footer id="footer" class="bg-dark text-center text-light p-4">
-    <p class="mb-0">Ven a conocerme en mis <a href="https://linktr.ee/iiixeroiii" target="_blank">redes sociales!</a>
-    </p>
-  </footer>
+    </footer>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+<script src="assets/js/certificados.js"></script>
 </html>

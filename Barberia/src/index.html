@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page | Barber shop</title>
+    <link rel="shortcut icon" href="../assets/img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="bg-dark bg-gradient w-100">
+    <nav class="navbar bg-black">
+        <div class="container-fluid d-flex justify-content-between align-items-center w-100">
+            <div>
+                <img id="logo" src="../assets/img/logo.jpg" alt="Barber Shop Logo" width="40" height="40" class="d-inline-block align-text-top m-5 p-1">
+            </div>
+            <div class="fst-italic">
+                <h1 class="text-center fw-bold m-5 p-2 text-white">Barber Shop</h1>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <a class="h4 text-white m-5 p-1 " type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Registro / Sesion</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header bg-info text-center">
+                <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Registro / Iniciar Sesión</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="iniciar_sesion">
+                        <h3 class="text-center text-black fw-bold">Iniciar Sesión</h3>
+                        <form class="p-3 m-3">
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Correo electrónico</label>
+                                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label fw-bold">Contraseña</label>
+                                <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña">
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+                        </form>
+                </div>
+                <div id="registrarse" style="display: none;">
+                        <h3 class="text-center text-black fw-bold">Registro</h3>
+                        <form class="p-3 m-3">
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-bold">Nombre completo</label>
+                                <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre completo">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label fw-bold">Teléfono</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Ingresa tu número de teléfono">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Correo electrónico</label>
+                                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label fw-bold">Contraseña</label>
+                                <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password_confirm" class="form-label fw-bold">Confirmar contraseña</label>
+                                <input type="password" class="form-control" id="password_confirm" placeholder="Confirma tu contraseña">
+                            </div>
+                            <button type="submit" class="btn btn-success w-100">Registrarse</button>
+                        </form>
+                </div>
+            </div>
+            <div class="modal-footer bg-success-subtle row row-cols-2 justify-content-around align-items-center">
+                <button type="button" class="btn btn-warning" onclick="Switch('registro')">Registro</button>
+                <button type="button" class="btn btn-danger" onclick="Switch('sesion')">Sesión</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <main class=" container d-flex flex-column justify-content-center align-items-center">
+        <div id="nosotros" class="m-5 p-3 rounded-5">
+            <h3 class="text-center fw-bolder fst-italic bg-black bg-gradient text-warning text-decoration-underline rounded-5 px-1 py-2 mx-5">!Tu estilo nuestra pasión¡</h3>
+            <h3 class="text-center text-black fw-bold mt-5">¿Quienes somos?</h3>
+            <p class="text-black p-2 m-3 fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi itaque optio dolores, 
+                sapiente eveniet nostrum quaerat hic illo, provident nisi iure maxime, sed tempore magnam libero eos temporibus 
+                officia nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit expedita saepe non debitis quas omnis. Ipsa velit eveniet asperiores tempora, molestiae veniam quos harum libero aspernatur omnis eaque repellat. Eos.
+                Modi, repellendus! Itaque aspernatur, recusandae cumque doloremque voluptas eaque et? Iusto eveniet perspiciatis quaerat vel ullam eligendi veniam omnis consectetur sequi, minus eaque molestiae voluptatum quis, nihil repudiandae aperiam possimus.
+                Eaque, dolores nesciunt? Sequi quaerat temporibus impedit maiores nihil enim. Earum sed laboriosam voluptate laudantium suscipit excepturi praesentium expedita dolorum consequatur, facilis placeat. Illo magni tempore assumenda dolore sed reprehenderit.
+                Doloremque assumenda recusandae quae dolore similique dolorem facere odit quisquam quia! Soluta atque placeat debitis nulla eius tenetur recusandae! Minima quasi nostrum ut vel, temporibus ad fuga ratione optio ipsam?</p>
+        </div>
+        <section class="container text-center bg-white rounded-5 p-3 m-5 ">
+            <h2 class="rounded-5 w-100 bg-black text-warning fw-bold m-0 p-4">Nuestro trabajo</h2>
+            <div class="row">
+                <div class="col bg-dark rounded-5 m-3 p-3">
+                    <div class="d-flex justify-content-between align-items-center m-2 p-5">
+                        <img class="rounded-5 p-1 bg-white" src="../assets/img/cortes/hombre/bf20e6649085b7e8550f2260fa75e00a.png" alt="">
+                        <h4 class="text-center text-white fw-bold">Corte hombre basico</h4>
+                    </div>
+                    <p class="text-white fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit temporibus cupiditate eius similique ipsa pariatur iste, minima dolorum dolore consectetur provident a nihil amet eos. Labore porro mollitia est doloremque.
+                    </p>
+                </div>
+                    <div class="col bg-dark rounded-5 m-3 p-3">
+                        <div class="d-flex justify-content-between align-items-center m-2 p-5 text-wrap">
+                            <img class="rounded-5 p-1 m-1 bg-white" height="150" src="../assets/img/cortes/hombre/corte-fade-flequillo.png" alt="">
+                            <h4 class="text-center text-white fw-bold p-1 m-1">Corte fade con flequillo</h4>
+                        </div>
+                    <p class="text-white fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit temporibus cupiditate eius similique ipsa pariatur iste, minima dolorum dolore consectetur provident a nihil amet eos. Labore porro mollitia est doloremque.</p>
+                </div>
+                <div class="row">
+                    <div class="col bg-dark rounded-5 m-3 p-3">
+                        <div class="d-flex justify-content-around align-items-center m-2 p-5">
+                            <img class="rounded-5 p-1 bg-white" height="150" src="../assets/img/cortes/hombre/Sin_titulo_900_x_800_px_8ad6c3cb-cd0a-4fb0-882e-2846f8a77577.png" alt="">
+                            <h4 class="text-center text-white fw-bold">Corte con degradado y barba</h4>
+                        </div>
+                        <p class="text-white fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit temporibus cupiditate eius similique ipsa pariatur iste, minima dolorum dolore consectetur provident a nihil amet eos. Labore porro mollitia est doloremque.</p>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-around align-items-center">
+                <div class="p-3 m-3">
+                    <h2 class="text-center text-white">Corte Pixie</h2>
+                    <img height="150" src="../assets/img/cortes/mujer/corte-pixie.png" alt="Corte Pixie">
+                    <p class="fst-italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero distinctio autem a aliquid. Praesentium dignissimos rem nisi modi alias? Odit numquam temporibus dignissimos quod suscipit reiciendis quas impedit doloribus vel.</p>
+                </div>
+                <div>
+                    <h2 class="text-center text-white">Corte Push-up</h2>
+                    <img height="150" src="../assets/img/cortes/mujer/Push-up-medio.png" alt="Corte Push-up">
+                    <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iusto maiores aut, dolorum impedit cumque, modi magni praesentium harum corporis ducimus facilis sapiente laudantium quis architecto. Laudantium impedit suscipit tempora.</p>
+                </div>
+                <div>
+                    <h2 class="text-center text-white">Corte Bob</h2>
+                    <img height="150" src="../assets/img/cortes/mujer/df53730c9b606db54ed35ac604097470.png" alt="Corte Bob">
+                    <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iusto maiores aut, dolorum impedit cumque, modi magni praesentium harum corporis ducimus facilis sapiente laudantium quis architecto. Laudantium impedit suscipit tempora.</p> 
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid bg-white rounded-3">
+            <div class="p-4">
+                <h2 class="bg-black text-center text-warning fw-bold text-decoration-underline rounded-5 p-1 m-1 mb-2">¡Agenda con nosotros!</h2>
+                <div class="text-center">
+                    <h5><strong>Ubicación:</strong> Calle Principal 123, Ciudad</h5>
+                    <a type="button" class="btn btn-warning  btn-lg text-dark fw-bold" target="_blank"
+                    href="https://calendar.app.google/Ra3RBcEzCZpy1vnp6"
+                    >Agendar Ahora</a>
+                </div>
+                <div class="text-center mt-5">
+                    <h3 class="bg-secondary text-warning fw-bold rounded-3 mx-5 px-5 py-1 mb-3">Agendar Adomicilio</h3>
+                        <ul class="list-unstyled h5 text-center">
+                            <li class="p-1 m-2"><i class="fa-solid fa-phone"></i> <strong>Telefono:</strong> 123-456-7890</li>
+                            <li class="p-1 m-2"><i class="fa-solid fa-envelope"></i> <strong>Correo:</strong> info@barbershop.com</li>
+                            <li class="p-1 m-2"><i class="fa-brands fa-whatsapp"></i> <strong>WhatsApp:</strong> 098-123456789</li>
+                        </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="bg-black text-white position-relative bottom-0 w-100 mt-5 p-3 ">
+        <h5 class="text-center"> @Barber Shop 2026. Todos los derechos reservados.</h5>
+        <div class="d-flex justify-content-around align-items-center">
+            <img src="../assets/img/logo.jpg" height="100" alt="Barber Shop Logo" class="d-inline-block align-text-top m-5 p-1 rounded-circle">
+            <div id="intereses" >
+                <div id="redes" class="container text-center">
+                    <ul class="list-unstyled row row-cols-2 row-cols-md-4 justify-content-center align-items-center">
+                        <li class="col d-flex">
+                            <i class="fa-brands fa-facebook-f p-2"></i>
+                            <a class="icon-link icon-link-hover text-white" href="#">Facebook</a>
+                        </li>
+                        <li class="col d-flex">
+                            <i class="fa-brands fa-instagram p-2"></i>
+                            <a class="icon-link icon-link-hover text-white" href="#">Instagram</a>
+                        </li>
+                        <li class="col d-flex">
+                            <i class="fa-brands fa-twitter p-2"></i>
+                            <a class="icon-link icon-link-hover text-white" href="#">Twitter</a>
+                        </li>
+                        <li class="col d-flex">
+                            <i class="fa-brands fa-youtube p-2"></i>
+                            <a class="icon-link icon-link-hover text-white" href="#">YouTube</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="links" class="container text-center">
+            <ul class="list-unstyled row row-cols-5 justify-content-around align-items-center">
+                <li class=""><a href="#">Trabaja con nosotros</a></li>
+                <li class=""><a href="#">Terminos y condiciones</a></li>
+                <li class=""><a href="#">Politica de privacidad</a></li>
+                <li class=""><a href="#">Contacto de Negocio</a></li>
+                <li class=""><a href="#">Sucursales</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="../assets/js/footer.js"></script>
+    <script src="../assets/js/switch.js"></script>
+    <script>
+        //document.getElementById("footer").innerHTML = footer();
+    </script>
+    <script src="https://kit.fontawesome.com/009708912d.js" crossorigin="anonymous"></script>
+</html>

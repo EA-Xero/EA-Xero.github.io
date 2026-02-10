@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia Chile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="shortcut icon" href="../assets/img/624dd0a951a1e8a118215b1b24a0da59.svg" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <img src="../assets/img/624dd0a951a1e8a118215b1b24a0da59.svg" alt="Farmacia Ohiggins" width="100"
+                height="100" class="align-text-top p-1 m-1 rounded-3" />
+            <a class="text-white text-decoration-none h2 fw-bold fst-italic" href="#">Farmacia Ohiggins</a>
+            <button class="navbar-toggler border border-white border-2 m-2" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header border-bottom border-2 border-white">
+                    <h5 class="offcanvas-title text-center" id="offcanvasDarkNavbarLabel">Bienvenido a Farmacias
+                        O'higgins</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 py-2 pb-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sucursales</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Clientes
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Crear Cuenta</a></li>
+                                <li><a class="dropdown-item" href="#">Iniciar Sesión</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Realizar Pedido</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex  border-top border-2 border-white pt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar Producto"
+                            aria-label="search" />
+                        <button class="btn btn-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header
+        class="bg-danger text-white text-center py-1 px-1 d-flex justify-content-around align-items-center text-decoration-underline">
+        <h5>Quienes Somos</h5>
+        <h5>Contacto Comercial</h5>
+        <h5>Trabaja con Nosotros</h5>
+    </header>
+    <main>
+        <section id="Bienvenida" class="bg-white w-100 m-0 p-2">
+            <div class="text-center">
+                <h1 class="fw-bold">Bienvenido a <strong class="fst-italic">Farmacias Ohiggins</strong></h1>
+                <p class="h6 mt-3">
+                    En Farmacias Ohiggins, nos dedicamos a cuidar de tu salud y bienestar. Con una amplia gama de
+                    productos farmacéuticos, medicamentos, y
+                    artículos de cuidado personal
+                </p>
+            </div>
+        </section>
+
+
+        <section id="Anuncios" class="w-100 bg-white my-3 mx-2 p-2">
+            <div class="container-fluid">
+                <div>
+                    <img src="../assets/img/poderosasheaderurldesktop.png" alt="Anuncio Farmacia" class="img-fluid rounded-4">
+                </div>
+            </div>
+        </section>
+
+        <section id="Container-Productos" class="bg-white rounded-4 my-3 mx-2 ">
+            <div class="text-center w-100 bg-info p-2 m-0">
+                <h2 class="fw-bold p-0 m-0">Nuestros Productos</h2>
+            </div>
+            <div id="Productos" class="container-fluid px-4 py-3 m-2">
+                <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-4 mt-2">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../assets/img/Productos/Paracetamol.png" class="card-img-top p-5"
+                                alt="Paracetamol 500mg">
+                            <div style="background-color: #59F7C4;" class="card-body  bg-gradient text-dark">
+                                <h5 class="card-title fw-bold text-center m-2">Paracetamol 500mg | Laboratorio Chile
+                                </h5>
+                                <p class="card-text fst-italic text-center">Alivio rápido para el dolor y la fiebre
+                                </p>
+                                <section class="d-flex flex-column justify-content-center align-items-center">
+                                    <div id="buy"
+                                        class="d-flex justify-content-center gap-3 align-items-center w-100 mb-3">
+                                        <a href="#" class="btn btn-primary btn fw-bold px-5 py-1">Comprar</a>
+                                        <p class="fw-bold h4 m-0 p-0">2.000$</p>
+                                    </div>
+                                    <div id="badges">
+                                        <span class="badge bg-secondary m-1">En Stock</span>
+                                        <span class="badge bg-danger text-white m-1">Oferta</span>
+                                        <span class="badge bg-success text-white m-1">Produccion Local</span>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../assets/img/Productos/Amoxicilina.png" height="230" class="card-img-top px-2"
+                                alt="Amoxicilina 500mg">
+                            <div style="background-color: #59F7C4;" class="card-body  bg-gradient text-dark">
+                                <h5 class="card-title fw-bold text-center m-2">Amoxicilina 500mg | Saval
+                                </h5>
+                                <p class="card-text fst-italic text-center">Tratamiento antibiótico para infecciones bacterianas
+                                </p>
+                                <section class="d-flex flex-column justify-content-center align-items-center">
+                                    <div id="buy"
+                                        class="d-flex justify-content-center gap-3 align-items-center w-100 mb-3">
+                                        <a href="#" class="btn btn-primary btn fw-bold px-5 py-1">Comprar</a>
+                                        <p class="fw-bold h4 m-0 p-0">1.490$</p>
+                                    </div>
+                                    <div id="badges">
+                                        <span class="badge bg-secondary m-1">En Stock</span>
+                                        <span class="badge bg-danger text-white m-1">Oferta</span>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../assets/img/Productos/Alprozam.png" class="card-img-top p-5"
+                                alt="Alprozam 0.5mg">
+                            <div style="background-color: #59F7C4;" class="card-body  bg-gradient text-dark">
+                                <h5 class="card-title fw-bold text-center m-2">Alprozam 0.5mg | Laboratorio Chile
+                                </h5>
+                                <p class="card-text fst-italic text-center">Tratamiento para ansiedad y trastornos del sueño
+                                </p>
+                                <section class="d-flex flex-column justify-content-center align-items-center">
+                                    <div id="buy"
+                                        class="d-flex justify-content-center gap-3 align-items-center w-100 mb-3">
+                                        <a href="#" class="btn btn-primary btn fw-bold px-5 py-1">Comprar</a>
+                                        <p class="fw-bold h4 m-0 p-0">10.000$</p>
+                                    </div>
+                                    <div id="badges">
+                                        <span class="badge bg-secondary m-1">En Stock</span>
+                                        <span class="badge bg-success text-white m-1">Produccion Local</span>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../assets/img/Productos/Simvastatina.png" height="240" class="card-img-top p-5"
+                                alt="Simvastatina 10mg">
+                            <div style="background-color: #59F7C4;" class="card-body  bg-gradient text-dark">
+                                <h5 class="card-title fw-bold text-center m-2">Simvastatina 10mg | Gentar
+                                </h5>
+                                <p class="card-text fst-italic text-center">Tratamiento para el colesterol y enfermedades cardíacas
+                                </p>
+                                <section class="d-flex flex-column justify-content-center align-items-center">
+                                    <div id="buy"
+                                        class="d-flex justify-content-center gap-3 align-items-center w-100 mb-3">
+                                        <a href="#" class="btn btn-primary btn fw-bold px-5 py-1 disabled">Comprar</a>
+                                        <p class="fw-bold h4 m-0 p-0">5.000$</p>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../assets/img/Productos/Ibuprofeno.png" height="240" class="card-img-top p-5"
+                                alt="Ibuprofeno 400mg">
+                            <div style="background-color: #59F7C4;" class="card-body  bg-gradient text-dark">
+                                <h5 class="card-title fw-bold text-center m-2">Ibuprofeno 400mg | Laboratorio Chile
+                                </h5>
+                                <p class="card-text fst-italic text-center">Alivio efectivo para el dolor y la inflamación
+                                </p>
+                                <section class="d-flex flex-column justify-content-center align-items-center">
+                                    <div id="buy"
+                                        class="d-flex justify-content-center gap-3 align-items-center w-100 mb-3">
+                                        <a href="#" class="btn btn-primary btn fw-bold px-5 py-1">Comprar</a>
+                                        <p class="fw-bold h4 m-0 p-0">4.590$</p>
+                                    </div>
+                                    <div id="badges">
+                                        <span class="badge bg-secondary m-1">En Stock</span>
+                                        <span class="badge bg-danger text-white m-1">Oferta</span>
+                                        <span class="badge bg-success text-white m-1">Produccion Local</span>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../assets/img/Productos/Loratadina.png" height="240" class="card-img-top p-5"
+                                alt="Loratadina 10mg">
+                            <div style="background-color: #59F7C4;" class="card-body  bg-gradient text-dark">
+                                <h5 class="card-title fw-bold text-center m-2">Loratadina 10mg | Opko Health
+                                </h5>
+                                <p class="card-text fst-italic text-center">Alivio efectivo para el alergia y la picazón
+                                </p>
+                                <section class="d-flex flex-column justify-content-center align-items-center">
+                                    <div id="buy"
+                                        class="d-flex justify-content-center gap-3 align-items-center w-100 mb-3">
+                                        <a href="#" class="btn btn-primary btn fw-bold px-5 py-1">Comprar</a>
+                                        <p class="fw-bold h4 m-0 p-0">6.900$</p>
+                                    </div>
+                                    <div id="badges">
+                                        <span class="badge bg-secondary m-1">En Stock</span>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../assets/img/Productos/Metformina.png" height="240" class="card-img-top p-5"
+                                alt="Metformina 500mg">
+                            <div style="background-color: #59F7C4;" class="card-body  bg-gradient text-dark">
+                                <h5 class="card-title fw-bold text-center m-2">Metformina 500mg | Laboratorio Chile
+                                </h5>
+                                <p class="card-text fst-italic text-center">Alivio efectivo para el control de la glucosa en sangre
+                                </p>
+                                <section class="d-flex flex-column justify-content-center align-items-center">
+                                    <div id="buy"
+                                        class="d-flex justify-content-center gap-3 align-items-center w-100 mb-3">
+                                        <a href="#" class="btn btn-primary btn fw-bold px-5 py-1 disabled">Comprar</a>
+                                        <p class="fw-bold h4 m-0 p-0">8.900$</p>
+                                    </div>
+                                    <div id="badges">
+                                        <span class="badge bg-danger text-white m-1">Oferta</span>
+                                        <span class="badge bg-success text-white m-1">Produccion Local</span>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../assets/img/Productos/omeprazol.png" height="240" class="card-img-top p-5"
+                                alt="Omeprazol 20mg">
+                            <div style="background-color: #59F7C4;" class="card-body  bg-gradient text-dark">
+                                <h5 class="card-title fw-bold text-center m-2">Omeprazol 20mg | Opko Health
+                                </h5>
+                                <p class="card-text fst-italic text-center">Alivio efectivo para el dolor de estómago y acidez
+                                </p>
+                                <section class="d-flex flex-column justify-content-center align-items-center">
+                                    <div id="buy"
+                                        class="d-flex justify-content-center gap-3 align-items-center w-100 mb-3">
+                                        <a href="#" class="btn btn-primary btn fw-bold px-5 py-1">Comprar</a>
+                                        <p class="fw-bold h4 m-0 p-0">4.410$</p>
+                                    </div>
+                                    <div id="badges">
+                                        <span class="badge bg-secondary m-1">En Stock</span>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer id="footer" class="w-100 bg-dark text-white p-3 mt-4">
+        <div class="d-flex mb-4 justify-content-around align-items-center flex-wrap gap-4">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h2 class="text-white">Farmacia Ohiggins</h2>
+                <img src="../assets/img/624dd0a951a1e8a118215b1b24a0da59.svg" height="150" alt="Farmacias Ohiggins" class="p-3 rounded-3" />
+            </div>
+            <div class="text-white">
+                <h3 class="text-white fw-bold">Enlaces de Interés</h3>
+                <ul class="list-unstyled text-white">
+                    <li><a href="#" class="text-decoration-none text-warning">Quienes Somos</a></li>
+                    <li><a href="#" class="text-decoration-none text-warning">Contacto Comercial</a></li>
+                    <li><a href="#" class="text-decoration-none text-warning">Trabaja con Nosotros</a></li>
+                    <li><a href="#" class="text-decoration-none text-warning">Política de Privacidad</a></li>
+                    <li><a href="#" class="text-decoration-none text-warning">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+            <div class="text-white">
+                <h3 class="fw-bold text-white text-center">Redes</h3>
+                <ul class="list-unstyled gap-3 d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-sm-around">
+                    <li><i class="bi bi-facebook p-3"></i><a href="#" class="text-decoration-none text-warning">Facebook</a></li>
+                    <li><i class="bi bi-instagram p-3"></i><a href="#" class="text-decoration-none text-warning">Instagram</a></li>
+                    <li><i class="bi bi-linkedin p-3"></i><a href="#" class="text-decoration-none text-warning">LinkedIn</a></li>
+                    <li><i class="bi bi-twitter p-3"></i><a href="#" class="text-decoration-none text-warning">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</html>
