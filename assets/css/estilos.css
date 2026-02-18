@@ -74,3 +74,25 @@ body {
   background: rgb(0,162,247);
 background: linear-gradient(0deg, rgba(0,162,247,1) 0%, rgba(33,0,75,0.958420868347339) 78%);
 }
+
+#Quien_soy{
+  animation-name: slideUp !important;
+  animation-duration: 2s !important;
+  animation-timing-function: ease;
+}
+
+.but{
+  transition: transform 0.3s ease;
+}
+.but:hover{
+  transform: scaleY(1.5);
+}
+
+@keyframes slideUp{
+  from{
+    opacity: 15%;
+  }
+  to{
+    opacity:100%;
+  }
+}
